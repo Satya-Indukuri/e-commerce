@@ -3,37 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Webpage</title>
+    <title>Document</title>
 </head>
 <body>
-
-    <script>
-        // Function to load and inject header and footer
-        function loadHeaderAndFooter() {
-            // Load header
-            fetch('header.html')
-                .then(response => response.text())
-                .then(html => {
-                    document.body.insertAdjacentHTML('afterbegin', html);
-                });
-
-            // Load footer
-            fetch('footer.html')
-                .then(response => response.text())
-                .then(html => {
-                    document.body.insertAdjacentHTML('beforeend', html);
-                });
-        }
-
-        // Call the function to load header and footer
-        loadHeaderAndFooter();
-
-    </script>
-
-    <main>
-        <!-- Your page content goes here -->
-        <p>This is the main content of your webpage.</p>
-    </main>
-
+    
 </body>
 </html>
