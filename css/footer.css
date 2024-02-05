@@ -13,6 +13,7 @@ body {
     margin-top: auto;
 }
 
+
 .footer_row {
     text-align: center;
 }
@@ -39,6 +40,14 @@ hr {
         display: flex;
         justify-content: space-around;
     }
+    
+}
+@media (max-width: 576px) {
+    /* Small devices (576px and below) */
+    .col-sm-3{
+        margin-bottom: 10px;
+    }
+    
 }
 
 @media (min-width: 768px) {
