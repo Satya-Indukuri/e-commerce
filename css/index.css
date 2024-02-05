@@ -22,14 +22,14 @@
 .web-logo {
     position: relative;
     z-index: 1;
-    left: 32%;
+    left: 32.5%;
     top: 10%;
     width: 35%;
 }
 .quotation{
     position:relative;
     text-align: center;
-    top: 10%;
+    top: 15%;
     z-index:1;
-    background-color: black;
+    color: bisque;
 }
