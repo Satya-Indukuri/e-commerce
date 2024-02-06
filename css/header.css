@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
 }
-img {
+.website-logo {
     width: 100%;
     height: 50%;
 }

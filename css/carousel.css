@@ -1,0 +1,49 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider img {
+    width: 25%;
+    flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+    .slider img {
+        width: 50%; /* Display two images per slide on screens between sm and md */
+    }
+}
+
+@media (max-width: 576px) {
+    .slider img {
+        width: 100%; /* Display one image per slide on screens less than sm */
+    }
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
