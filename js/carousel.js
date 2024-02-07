@@ -1,7 +1,7 @@
 let slideIndex = 0;
 
 function showSlides() {
-    const slides = document.querySelectorAll('.slider img');
+    const slides = document.querySelectorAll('.slider .sl-im');
     if (window.innerWidth >= 992) {
         // Greater than or equal to md
         if (slideIndex >= slides.length / 4) {
@@ -29,7 +29,7 @@ function nextSlide() {
 }
 
 function prevSlide() {
-    const slides = document.querySelectorAll('.slider img');
+    const slides = document.querySelectorAll('.slider .sl-im');
     if (slideIndex > 0) {
         slideIndex--;
         showSlides();
