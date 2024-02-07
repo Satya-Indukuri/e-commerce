@@ -3,7 +3,14 @@
     overflow: hidden;
     width: 100%;
     max-width: 1000px; /* Adjust as needed */
-    margin: 0 auto;
+    margin: 6px auto;
+}
+
+.slider-container .slide_heading{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 2px;
 }
 
 .slider {
@@ -18,11 +25,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
 }
 
-.card_img_top{
-    width: 18rem;
-    height: 20rem;
+.image-container {
+    width: 100%;
+    height: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .slider .sl-im {
