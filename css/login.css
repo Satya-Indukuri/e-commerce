@@ -1,0 +1,28 @@
+.login-form{
+    display:flex;
+    flex-direction: column;
+    width:40%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.login-heading{
+    text-align: center;
+}
+.login-form input{
+    padding:1%;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+@media screen and (max-width:992px){
+    .login-form{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:576px){
+    .login-form{
+        width:80%;
+    }
+}

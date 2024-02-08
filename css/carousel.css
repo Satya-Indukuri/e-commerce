@@ -1,8 +1,8 @@
 .slider-container {
     position: relative;
     overflow: hidden;
-    width: 100%;
-    max-width: 1000px; /* Adjust as needed */
+    width: 90%;
+    max-width: 1100px; /* Adjust as needed */
     margin: 6px auto;
 }
 
@@ -29,7 +29,6 @@
 }
 
 .image-container {
-    width: 100%;
     height: 250px; /* Adjust the height as needed */
     overflow: hidden;
 }
@@ -46,12 +45,20 @@
 }
 
 @media (max-width: 992px) {
+    .slider-container {
+        width: 90%;
+        max-width: 650px;
+    }
     .slider .sl-im {
         width: 50%; /* Display two images per slide on screens between sm and md */
     }
 }
 
 @media (max-width: 576px) {
+    .slider-container {
+        width: 90%;
+        max-width: 350px;
+    }
     .slider .sl-im {
         width: 100%; /* Display one image per slide on screens less than sm */
     }
@@ -75,4 +82,19 @@
 
 .next {
     right: 0;
+}
+.card-body{
+    position: relative;
+    padding: 50px;
+}
+.card-text{
+    margin-bottom: 5px;
+}
+.card-body button{
+    position: absolute;
+    bottom:10px;
+    right:32%;
+}
+.product{
+    margin-bottom:40px;
 }
