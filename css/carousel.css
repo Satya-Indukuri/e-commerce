@@ -44,6 +44,25 @@
     flex-shrink: 0;
 }
 
+.card-body{
+    position: relative;
+    padding: 50px;
+}
+
+.card-body .card_button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    left: 20%;
+    padding: 2%;
+    font-size:large;
+    background-color: #64897b;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
 @media (max-width: 992px) {
     .slider-container {
         width: 90%;
@@ -83,18 +102,9 @@
 .next {
     right: 0;
 }
-.card-body{
-    position: relative;
-    padding: 50px;
-}
 .card-text{
     margin-bottom: 5px;
 }
-.card-body button{
-    position: absolute;
-    bottom:10px;
-    right:32%;
-}
 .product{
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
