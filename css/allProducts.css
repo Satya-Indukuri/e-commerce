@@ -2,17 +2,16 @@
     margin-top: 10px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    row-gap: .5%;
-    margin-bottom: 3%;
+    row-gap: 5px;
+    margin-bottom: 10px;
 }
 
 .card{
     flex-shrink: 0;
     text-align: center;
-    display: flex;
-    justify-content: center;
     align-items: center;
     margin-right: 5px;
+    position: relative;
 }
 
 .image-container {
@@ -26,22 +25,11 @@
     object-fit: cover;
 }
 
-.allProducts{
-    margin-bottom: 35px;
-}
-
-.card-body{
+.card_button{
     position: relative;
-}
-
-.card-body .card_button{
-    position: absolute;
-    display: flex;
+    bottom: 5px;
     justify-content: center;
-    bottom: 5%;
-    left: 20%;
     padding: 4%;
-    font-size:large;
     background-color: #64897b;
     color: black;
     border-radius: 5px;
@@ -51,20 +39,17 @@
 @media (max-width: 992px) {
     .main-div{
         grid-template-columns: 33% 33% 33%;
-        margin-bottom: 15%;
     }
 }
 
 @media (max-width: 760px) {
     .main-div{
         grid-template-columns: 50% 50%;
-        margin-bottom: 45%;
     }
 }
 
 @media (max-width: 460px) {
     .main-div{
         grid-template-columns: 100%;
-        margin-bottom: 28%;
     }
 }
