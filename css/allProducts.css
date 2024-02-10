@@ -1,7 +1,7 @@
 .main-div{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     row-gap: .5%;
     margin-bottom: 3%;
 }
@@ -50,14 +50,21 @@
 
 @media (max-width: 992px) {
     .main-div{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 33% 33% 33%;
         margin-bottom: 15%;
     }
 }
 
 @media (max-width: 576px) {
     .main-div{
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         margin-bottom: 45%;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-div{
+        grid-template-columns: 100%;
+        margin-bottom: 28%;
     }
 }
