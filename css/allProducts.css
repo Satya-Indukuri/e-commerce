@@ -55,14 +55,14 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 760px) {
     .main-div{
         grid-template-columns: 50% 50%;
         margin-bottom: 45%;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
     .main-div{
         grid-template-columns: 100%;
         margin-bottom: 28%;
