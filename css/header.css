@@ -76,6 +76,13 @@ a.nav-link{
     .secondcol{
         display:none;
     }
+    .login-button{
+        margin-top: 6px;
+    }
+    .fa-shopping-cart{
+        margin-left: 10%;
+        margin-top: 4px;
+    }
     
 }
 @media screen and (min-width: 576px) {
@@ -83,4 +90,4 @@ a.nav-link{
         display:none;
     }
 }
-  
+

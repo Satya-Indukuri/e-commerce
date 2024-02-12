@@ -15,5 +15,19 @@ function loadHeaderAndFooter() {
         });
 }
 
+// Function to initialize toggleMenu after header is loaded
+function toggleMenu() {
+    var secondCol = document.querySelector('.secondcol');
+    var thirdCol = document.querySelector('.thirdcol');
+    if (secondCol.style.display === "none") {
+        secondCol.style.display = "block";
+        thirdCol.style.display = "block";
+    } else {
+        secondCol.style.display = "none";
+        thirdCol.style.display = "none";
+    }
+}
+
+
 // Call the function to load header and footer
 loadHeaderAndFooter();
