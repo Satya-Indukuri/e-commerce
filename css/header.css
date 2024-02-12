@@ -45,10 +45,42 @@ input[type="submit"] {
 a.nav-link{
     color:black;
 }
+#mainPageHeadLogo:hover{
+    cursor: pointer;
+}
+.thirdcol{
+    display:flex;
+    justify-content: center;
+}
 
 @media screen and (min-width: 992px) {
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+}
+@media screen and (max-width: 576px) {
+    .website-logo{
+        width:75%;
+        margin-right: 5%;
+    }
+    .hamburger{
+        font-size: xx-large;
+        border:2px solid #64897b;
+        padding:6px 12px 6px 12px;
+        border-radius: 5px;
+        color:#64897b;
+    }
+    .thirdcol{
+        display:none;
+    }
+    .secondcol{
+        display:none;
+    }
+    
+}
+@media screen and (min-width: 576px) {
+    .hamburger{
+        display:none;
     }
 }
   
