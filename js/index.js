@@ -19,12 +19,13 @@ function loadHeaderAndFooter() {
 function toggleMenu() {
     var secondCol = document.querySelector('.secondcol');
     var thirdCol = document.querySelector('.thirdcol');
-    if (secondCol.style.display === "none") {
-        secondCol.style.display = "block";
-        thirdCol.style.display = "block";
-    } else {
+    console.log("clicked");
+    if (secondCol.style.display === "block") {
         secondCol.style.display = "none";
         thirdCol.style.display = "none";
+    } else {
+        secondCol.style.display = "block";
+        thirdCol.style.display = "block";
     }
 }
 
