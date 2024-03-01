@@ -1,3 +1,4 @@
+// basic JavaScript functionality for login buttun
 function Login(form){
     var email = form.email.value;
     var pass = form.password.value;

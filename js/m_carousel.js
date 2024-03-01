@@ -21,11 +21,13 @@ function menSlides(){
     document.querySelector('.m_s').style.transform = `translateX(${m_offset}%)`;
 }
 
+// right arrow function
 function rightSlide(){
     menIndex++;
     menSlides();
 }
 
+// left arrow function
 function leftSlide(){
     const m_slides = document.querySelectorAll('.m_s .sl-im');
     if(menIndex > 0){

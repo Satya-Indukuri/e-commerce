@@ -21,11 +21,13 @@ function showSlides() {
     document.querySelector('.w_s').style.transform = `translateX(${offset}%)`;
 }
 
+// right arrow function
 function nextSlide() {
     slideIndex++;
     showSlides();
 }
 
+// left arrow function
 function prevSlide() {
     const slides = document.querySelectorAll('.w_s .sl-im');
     if (slideIndex > 0) {
